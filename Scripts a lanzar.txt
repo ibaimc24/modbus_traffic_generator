@@ -1,0 +1,42 @@
+# Lanzar trafico de 2000 paquetes con codigos 1 y 2 de forma alterna con 0.114811 segundos entre cada transmision como mínimo
+python modbus_traffic.py 192.168.1.120 502 --option 4 --code 1 --code 2 -n 2000 -d 0.114811
+
+# Lo mismo para rafagas de codigos 1 2 15:
+python modbus_traffic.py 192.168.1.120 502 --option 4 --code 1 --code 2 --code 15 -n 3000 -d 0.114811
+
+# Lanzar trafico de paquetes con codigos 1 y 2  (15)de forma alterna sin delay entre transmisiones.
+python modbus_traffic.py 192.168.1.120 502 --option 4 --code 1 --code 2 -n 2000 -d 0
+python modbus_traffic.py 192.168.1.120 502 --option 4 --code 1 --code 2 --code 15 -n 3000 -d 0
+
+# Lo mismo para rafagas de codigos 1 2 15:
+python modbus_traffic.py 192.168.1.120 502 --option 4 --code 1 --code 2 --code 15 -n 3000 -d 0
+
+# Lanzar un paquete de con cada codigo Modbus con 3 segundos entre cada transmision
+python modbus_traffic.py 192.168.1.120 502 --option 3 -d 3
+
+# Lanzar 1000 paquetes de cada uno de los codigos mas comunes sin delay entre ellos:
+python modbus_traffic.py 192.168.1.120 502 --option 2 -d 0
+
+# Con delay:
+python modbus_traffic.py 192.168.1.120 502 --option 2 -d 0.1464338044097828
+
+# Trafico continuo de paquetes de un codigo sin delay:
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 1 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 2 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 3 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 4 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 5 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 6 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 7 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 8 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 11 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 12 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 15 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 16 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 17 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 20 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 21 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 22 -d 0 -n 100
+python modbus_traffic.py 192.168.1.120 502 --option 1 --code 43 -d 0 -n 100
+
+

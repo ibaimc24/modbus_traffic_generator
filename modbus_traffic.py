@@ -227,14 +227,19 @@ def interleaved(codes):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate a ModbusTCP traffic to specified host addr:port ")
+    parser = argparse.ArgumentParser(description="Generate a ModbusTCP traffic to specified host addr:port"
+                                                 ""
+                                                 "It builds Modbus packets with specified function codes and it"
+                                                 "waits until slaves answers."
+                                                 ""
+                                                 "The delay between sended packets can be set by -d option.")
     parser.add_argument("addr", help="Slave IP address", type=str)
     parser.add_argument("port", type=int, help="Slave TCP port", default=502)
     parser.add_argument("--option", help="Specifies the burst option: ", type=int, choices=[1, 2, 3, 4], default=3)
     parser.add_argument("-d", "--delay", help="Specifies the delay between sended packets: ", type=float, default=0.15)
     parser.add_argument("-n", "--number", help="Specifies the number of packets per burst: ", type=int, default=1000)
     parser.add_argument("--code", help="Specifies Modbus function code in decimal of the burst: ", type=int,
-                        choices=[1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 16, 17], action="append")
+                        choices=[1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 16, 17, 20, 21, 22, 43], action="append")
     parser.add_argument("-v", "--verbose", help="increase output verbosity", action="store_true", default=False)
 
     args = parser.parse_args()
