@@ -17,8 +17,8 @@
       <file leaf-file-name="modbus_traffic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modbus_traffic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5439">
-              <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+            <state relative-caret-position="344">
+              <caret line="248" column="22" lean-forward="true" selection-start-line="248" selection-start-column="22" selection-end-line="248" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
       <file leaf-file-name="codes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protocol/codes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1974">
-              <caret line="94" column="107" lean-forward="true" selection-start-line="94" selection-start-column="107" selection-end-line="94" selection-end-column="107" />
+            <state relative-caret-position="252">
+              <caret line="45" column="71" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -78,14 +78,15 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/protocol/pkt.py" />
         <option value="$PROJECT_DIR$/slave_test.py" />
-        <option value="$PROJECT_DIR$/modbus_traffic.py" />
         <option value="$PROJECT_DIR$/protocol/codes.py" />
+        <option value="$PROJECT_DIR$/modbus_traffic.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
+    <option name="x" value="541" />
+    <option name="y" value="104" />
+    <option name="width" value="1191" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -212,7 +213,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30742857" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22971429" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,14 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protocol/codes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="94" column="107" lean-forward="true" selection-start-line="94" selection-start-column="107" selection-end-line="94" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protocol/pkt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -463,10 +456,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/codes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="45" column="71" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modbus_traffic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5439">
-          <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+        <state relative-caret-position="344">
+          <caret line="248" column="22" lean-forward="true" selection-start-line="248" selection-start-column="22" selection-end-line="248" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
